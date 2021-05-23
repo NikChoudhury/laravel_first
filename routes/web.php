@@ -29,3 +29,14 @@ Route::get('/second/{id}', function ($id) {
 	echo $id;
     return view('second');
 });
+
+// Calling a controller
+Route::get('home', 'App\Http\Controllers\User@index');
+
+Route::get('home/{id}', 'App\Http\Controllers\User@index');
+
+Route::get('about', 'App\Http\Controllers\User@about');
+
+Route::get('survice', 'App\Http\Controllers\User@survice');
+
+
