@@ -17,7 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/first', function () {
-    return view('first');
-});
+// Route::get('/first', function () {
+//     return view('first');
+// });
 
+// Simple Form of calling a view
+Route::view('first','first');
+
+// Calling Url Parameter
+Route::get('/second/{id}', function ($id) {
+	echo $id;
+    return view('second');
+});

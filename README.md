@@ -8,7 +8,7 @@ This is My First Laravel.
 composer create-project laravel/laravel example-app 
 
 ```
-- start Laravel's local development server using the Artisan
+- Start Laravel's local development server using the Artisan
 
 ```
 php artisan serve
