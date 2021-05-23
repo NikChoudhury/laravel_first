@@ -2,6 +2,13 @@
 
 This is My First Laravel.
 
+- Create a new Laravel project by using Composer directly.
+
+```
+composer create-project laravel/laravel example-app 
+
+```
+
 
 ## About Laravel
 
