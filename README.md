@@ -14,6 +14,10 @@ composer create-project laravel/laravel example-app
 php artisan serve
 
 ```
+- Generate a controller
+```
+php artisan make:controller Controller_name
+```
 
 
 ## About Laravel
